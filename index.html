@@ -4,14 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-
+    <header class="menu">
+        <!-- nav é um container (caixinha) para armazenar links (<a>)-->
+        <nav class="links">
+            <a href="#">Sobre</a>
+            <a href="#">Projetos</a>
+            <a href="#">Contato</a>
+        </nav>
     </header>
 
     <main>
-        <h1>Meu Portifólio</h1>
+        <div class="card">
+            <img src="https://cdn.dev.portal.estacio.br/tmpumvsoywq_91adfef80d.webp" alt="Foto de Desenvolvedor">
+            <div class="texto">
+                <h3>Leonardo de Souza</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aspernatur laudantium natus qui vel nesciunt ex quam totam, vitae voluptas, est beatae? <br> Alias facere dolores veritatis exercitationem. Fuga enim repellendus eos.</p>
+                <button>
+                    <a href="https://wa.me/+5551995866984">Fale comigo</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="conhecimentos">
+            <div class="conhecimento dir">
+                <div class="texto">
+                    <h3>Javascript</h3>
+                    <p>Qualquer coisa.</p>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png" alt="Logo do Javascript">
+            </div>
+        </div>
     </main>
 
     <footer>
